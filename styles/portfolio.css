@@ -1,4 +1,5 @@
 
+
 .open-sans-normal{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -11,7 +12,31 @@
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    margin: 0;
 
+}
+/* shared styles */
+.bg-color{
+    background-color: rgb(255, 248, 243);
+}
+
+.section-title{
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 30px;
+    }
+.section-description{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.content-center{
+    text-align: center;
 }
 /* nav style */
 nav{
@@ -79,4 +104,90 @@ nav li a{
 }
 .banner-profile-pic{
     max-width: 580px;
+}
+
+main{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+/* about styles */
+.about{
+    text-align: center;
+    padding: 130px 156px;
+    margin: 135px;
+
+}
+.item-description{
+    font-weight: 600;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* skill styles */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skills-item{
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+
+/* Resume section styles */
+.resume{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.resume-container{
+    display: flex;
+    gap: 30px;
+}
+.resume-colum-title{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+}
+.exprience-title{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+}
+.exprience-sub-title{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+hr{
+    color: rgb(117, 117, 117);
+}
+.resume-button{
+    text-align: center;
+    margin-top: 20px;
+}
+/* Footer Styles */
+.footer{
+    background-color: rgb(255, 248, 243);
+    display: flex;
+    gap: 117px;
+    padding: 198px 230px;
+}
+.footer-colum{
+    width: 50%;
+}
+footer input[type="text"], footer textarea {
+    height: 35px;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 100%;
 }
