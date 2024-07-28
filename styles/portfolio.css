@@ -191,3 +191,48 @@ footer input[type="text"], footer textarea {
     background-color: white;
     width: 100%;
 }
+
+/* Responsive */
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    .skills-container, .resume-container, .footer, nav, .banner {
+        flex-direction: column;
+    }
+
+    .footer{
+        padding: 20px;
+    }
+    .footer-colum{
+        width: 100%;
+    }
+
+    footer input[type="text"], footer textarea{
+        width: calc(100% - 20px);
+    }
+
+    .about{
+        text-align: center;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .about-items{
+        flex-direction: column;
+    }
+    .nav{
+        flex-direction: column;
+    }
+    .banner-profile-pic{
+        max-width: 100%;
+    }
+    .banner{
+        margin: 10px;
+    }
+    .header{
+        background-image: none;
+    }
+}
